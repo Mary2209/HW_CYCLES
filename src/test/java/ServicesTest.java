@@ -5,7 +5,7 @@ import ru.netology.Services;
 public class ServicesTest {
 
     @Test
-    void first_case() {
+    public void testFirstCase() {
         Services services = new Services();
 
         // подготавливаем данные:
@@ -23,7 +23,7 @@ public class ServicesTest {
     }
 
     @Test
-    void second_case() {
+    public void testSecondCase() {
         Services services = new Services();
 
         // подготавливаем данные:
